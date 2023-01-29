@@ -12,6 +12,8 @@
     "express-handlebars": "^6.0.6",
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
-    "morgan": "~1.9.1"
+    "mongoose": "^5.9.0",
+    "morgan": "~1.9.1",
+    "seedgoose": "^2.0.2"
   }
 }
