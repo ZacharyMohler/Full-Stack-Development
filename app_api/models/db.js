@@ -7,10 +7,10 @@ const readLine = require('readline')
 mongoose.set('useUnifiedTopology', true);
 
 const connect = () => {
-    setTimeout(() => mongoose.connect(dbURI, {
+    mongoose.connect(dbURI, {
         useNewUrlParser: true,
         useCreateIndex: true
-    }), 100000);
+    });
 }
 
 mongoose.connection.on('connected', () => {
