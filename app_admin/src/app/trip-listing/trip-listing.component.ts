@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
+import { AuthenticationService } from '../services/authentication.service';
 
 //old import of file data (replaced by api call)
 //import { trips } from '../data/trips'; 
@@ -25,11 +26,19 @@ export class TripListingComponent implements OnInit {
 
   constructor(
     private tripDataService: TripDataService,
-    private router: Router
+    private router: Router,
+    private authenticationService: AuthenticationService
     ) { }
+
+
+  public isLoggedIn(): boolean
+  {
+    return this.authenticationService.isLoggedIn();
+  }
 
   private addTrip(): void 
   {
+    console.log('Inside TripListingComponent#addTrip');
     this.router.navigate(['add-trip']);
   }
 
