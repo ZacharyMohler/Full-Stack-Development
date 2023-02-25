@@ -1,9 +1,15 @@
 # CS-465
 
 ## Architecture
-Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
-Why did the backend use a NoSQL MongoDB database?
+The Travlr application makes use of two different methods for displaying the front-facing content.
 
+### Main Site
+The main site is a traditional webpage rendered using express and handlebars. Navigating through the site requires a new page to load which is done through injection of HTML through express and using templates created in handlebars. 
+### Administrator Site
+The administrator site is an angular-run SPA. Once the admin user connects to the site, they are able to navigate quickly and with no delay. 
+
+### Backend
+The backend uses MongoDB because it's data is stored as BSON, which translates well to JSON and JavaScript—which this application makes heavy use of in API and admin SPA implementation. 
 
 ## Functionality
 How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
