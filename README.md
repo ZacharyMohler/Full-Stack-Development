@@ -3,12 +3,12 @@
 ## Architecture
 The Travlr application makes use of two different methods for displaying the front-facing content.
 
-### Main Site
+#### Main Site
 The main site is a traditional webpage rendered using express and handlebars. Navigating through the site requires a new page to load which is done through injection of HTML through express and using templates created in handlebars. 
-### Administrator Site
+#### Administrator Site
 The administrator site is an angular-run SPA. Once the admin user connects to the site, they are able to navigate quickly and with no delay. 
 
-### Backend
+#### Backend
 The backend uses MongoDB because it's data is stored as BSON, which translates well to JSON and JavaScript—which this application makes heavy use of in API and admin SPA implementation. 
 
 ## Functionality
