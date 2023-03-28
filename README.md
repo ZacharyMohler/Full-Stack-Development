@@ -1,4 +1,4 @@
-# CS-465
+# FULL-STACK WEB APPLICATION (MEAN)
 
 ## Architecture
 The Travlr application makes use of two different methods for displaying the front-facing content.
