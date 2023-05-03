@@ -1,4 +1,6 @@
 # FULL-STACK WEB APPLICATION (MEAN)
+#### key skills this project displays:
+MongoDB, Express, Angular, Node.js, HTTP protocol, API creation, Authentication, JWT. 
 
 ## Architecture
 The Travlr application makes use of two different methods for displaying the front-facing content.
